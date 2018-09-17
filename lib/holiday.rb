@@ -70,7 +70,6 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.collect { |holiday, supply| }
     all_holidays << holiday if supply.include?("BBQ")
 end
-end 
 all_holidays
 end
 
