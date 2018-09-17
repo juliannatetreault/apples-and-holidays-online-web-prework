@@ -67,7 +67,9 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   all_holidays = []
   holiday_hash.collect { |season, holiday| 
-    holiday.collect ||
+    holiday.collect { |holiday, supply| 
+      
+    }
   }
 end
 
